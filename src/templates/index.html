@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevFlow Store | johndimitry</title>
+  <style>
+    body { font-family: sans-serif; background: #0f0f1a; color: white; text-align: center; padding: 50px; }
+    .card { background: #1e1e2f; padding: 20px; margin: 20px auto; width: 300px; border-radius: 12px; border: 1px solid #7c3aed; }
+    .badge { background: #7c3aed; padding: 5px 12px; border-radius: 20px; font-size: 12px; }
+    .ok { color: #22c55e; }
+  </style>
+</head>
+<body>
+  <h1>🚀 DevFlow Store</h1>
+  <p>Projeto CI/CD Enterprise por <b>johndimitry</b></p>
+  <p>Ambiente: <span class="badge">{{ env }}</span> | Versão: {{ version }}</p>
+  
+  <div class="card">
+    <h3>Notebook DevFlow Pro</h3>
+    <p>R$ 4500,00</p>
+    <p class="ok">● Em estoque | Pipeline OK</p>
+  </div>
+
+  <div class="card">
+    <h3>Mouse Gamer</h3>
+    <p>R$ 199,90</p>
+    <p class="ok">● Deploy automático ativo</p>
+  </div>
+
+  <a href="/api/products" style="color:#7c3aed">Ver API /api/products</a> | 
+  <a href="/health" style="color:#7c3aed">Healthcheck /health</a>
+</body>
+</html>

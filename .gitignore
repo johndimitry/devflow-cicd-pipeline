@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+*.log
+
+# Chaves - NUNCA SUBIR
+devflow_key
+devflow_key.pub
+*.pem
+
+# Ide
+.vscode/
+.idea/
